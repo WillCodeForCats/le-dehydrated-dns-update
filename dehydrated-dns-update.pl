@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# Use RFC2136 DNS updates with TSIG to set certbot DNS challenge for dehydrated.
+# Use RFC2136 DNS updates with TSIG to set DNS challenge for dehydrated.
 #
 # Usage in dehydrated-hook.sh:
 #
@@ -13,7 +13,7 @@
 #     /path/to/dehydrated-dns-update.pl -d "${DOMAIN}" "${TOKEN_VALUE}"
 # }
 #
-# https://github.com/WillCodeForCats
+# https://github.com/WillCodeForCats/le-dehydrated-dns-update
 #
 
 use strict;
