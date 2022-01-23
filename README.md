@@ -16,4 +16,7 @@ clean_challenge() {
 }
 ```
 
+## Links
+https://github.com/dehydrated-io/dehydrated
+
 https://github.com/WillCodeForCats/le-dehydrated-dns-update
